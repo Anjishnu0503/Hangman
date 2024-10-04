@@ -1,24 +1,66 @@
-# Hangman
-A simple Hangman Game made using Python and Tkinter. 
-Description
-The Hangman Game is a classic word-guessing game developed using Python and Tkinter as part of an internship project. The application features an engaging graphical user interface (GUI) that allows players to guess letters in a hidden word. With its intuitive design, players of all ages can enjoy this educational and entertaining game.
+#Hangman Game
+Overview
+Welcome to the Hangman Game repository! This project is an interactive implementation of the classic word-guessing game, built using Python and Tkinter. Developed as part of an internship project, this application provides a fun and engaging way to test your vocabulary while honing your Python programming skills.
 
-Game Mechanics
-Word Selection: The game randomly selects a word from a predefined list, ensuring that each playthrough can offer a different challenge.
-User Input: Players can guess letters either by clicking on on-screen buttons or by typing directly on their keyboard.
-Visual Feedback: The current state of the word is displayed with underscores representing unguessed letters, and incorrect guesses are tracked visually. A limited number of incorrect guesses are allowed, adding a level of challenge.
-Game Status: Players receive real-time updates on their progress, including remaining attempts and incorrect letters guessed, enhancing the gaming experience.
-Game Reset: After completing a game, players can easily start a new round without needing to restart the application, promoting continuous play.
-Target Audience
-This project is suitable for individuals looking to improve their vocabulary, spelling skills, or simply enjoy a classic game. It is also a great tool for educators who want to incorporate fun learning activities into their lessons.
+#Table of Contents
+Features
+Technologies Used
+Installation
+Usage
+Game Rules
+Contributing
+License
 
-Educational Value
-The Hangman Game not only provides entertainment but also serves as an educational tool. Players can learn new words, improve their spelling and vocabulary, and develop critical thinking skills by considering letter patterns and word structures.
+#Features
+User-Friendly Interface: A simple and intuitive graphical user interface (GUI) designed with Tkinter.
+Word Selection: Randomly selects a word from a predefined list.
+Guessing Mechanism: Users can input their guesses via buttons or keyboard.
+Visual Feedback: Displays the current state of the word, incorrect guesses, and remaining attempts.
+Game Reset: Allows players to start a new game without restarting the application.
+Score Tracking: Keeps track of wins and losses over multiple games.
+Technologies Used
+Python: The core programming language used for logic and functionality.
+Tkinter: The standard GUI toolkit for Python, used to create the game's interface.
+Random Module: For random selection of words from the word list.
+Installation
+To get started with the Hangman game, follow these steps:
 
-Development Experience
-This project allowed for hands-on experience with Python programming and GUI development using Tkinter. It involved implementing game logic, designing user interfaces, and ensuring a smooth user experience. The project emphasizes good coding practices, including modular programming and clear documentation.
+#Clone the Repository:
 
-Overall, the Hangman Game combines fun and education, making it an ideal project for showcasing programming skills while offering an enjoyable gaming experience.
+bash
+Copy code
+git clone (https://github.com/Anjishnu0503/Hangman.git)
+cd hangman-game
+Install Python: Ensure that Python (version 3.6 or higher) is installed on your machine. You can download it from python.org.
 
+#Usage
+Run the Game: Execute the following command in your terminal:
 
+bash
+Copy code
+python hangman.py
 
+#Gameplay:
+A word will be displayed as underscores representing each letter.
+Input your guess using the provided buttons or by typing on your keyboard.
+Keep track of your remaining attempts and incorrect guesses.
+Try to guess the word before you run out of attempts!
+Restarting the Game: After completing a game, you can reset and play again by clicking the “New Game” button.
+
+#Game Rules
+The game will randomly select a word from a predefined list.
+The player must guess the word by suggesting letters within a certain number of attempts.
+For every incorrect guess, the player loses an attempt.
+The player wins by guessing the word before exhausting their attempts.
+If the player runs out of attempts, the game reveals the word.
+
+#License
+MIT License
+
+Copyright (c) 2024 Anjishnu0503
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
