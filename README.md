@@ -1,8 +1,10 @@
 #Hangman Game
+
 Overview
 Welcome to the Hangman Game repository! This project is an interactive implementation of the classic word-guessing game, built using Python and Tkinter. Developed as part of an internship project, this application provides a fun and engaging way to test your vocabulary while honing your Python programming skills.
 
 #Table of Contents
+
 Features
 Technologies Used
 Installation
@@ -12,6 +14,7 @@ Contributing
 License
 
 #Features
+
 User-Friendly Interface: A simple and intuitive graphical user interface (GUI) designed with Tkinter.
 Word Selection: Randomly selects a word from a predefined list.
 Guessing Mechanism: Users can input their guesses via buttons or keyboard.
@@ -34,6 +37,7 @@ cd hangman-game
 Install Python: Ensure that Python (version 3.6 or higher) is installed on your machine. You can download it from python.org.
 
 #Usage
+
 Run the Game: Execute the following command in your terminal:
 
 bash
@@ -41,6 +45,7 @@ Copy code
 python hangman.py
 
 #Gameplay:
+
 A word will be displayed as underscores representing each letter.
 Input your guess using the provided buttons or by typing on your keyboard.
 Keep track of your remaining attempts and incorrect guesses.
@@ -48,6 +53,7 @@ Try to guess the word before you run out of attempts!
 Restarting the Game: After completing a game, you can reset and play again by clicking the “New Game” button.
 
 #Game Rules
+
 The game will randomly select a word from a predefined list.
 The player must guess the word by suggesting letters within a certain number of attempts.
 For every incorrect guess, the player loses an attempt.
@@ -55,6 +61,7 @@ The player wins by guessing the word before exhausting their attempts.
 If the player runs out of attempts, the game reveals the word.
 
 #License
+
 MIT License
 
 Copyright (c) 2024 Anjishnu0503
